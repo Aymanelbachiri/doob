@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 80vw;
+    margin: auto;
+}
+
+nav>div:nth-child(2) {
+    display: flex;
+    gap: 2vw;
+}
+
+nav>div:nth-child(2)>a {
+    color: rgb(72, 58, 150);
+    font-weight: 500;
+}
+
+nav>div:nth-child(2)>a:hover {
+    color: orangered;
+}
+
+nav>div:nth-child(3)>button {
+    color: orangered;
+    font-weight: 500;
+    background-color: white;
+    padding: 2vh 4vw;
+    box-shadow: 0 0 20px -12px black;
+    border-radius: 5px;
+}
+
+main {
+    max-width: 1330px;
+    margin: auto;
+}
+
+.first-section {
+    margin-top: -2em;
+    background-image: url(../images/img1.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.first-section>div {
+    padding-inline: 10vw;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.first-section>div>h1 {
+    color: rgb(72, 58, 150);
+    font-size: 3em;
+}
+
+.button-one {
+    padding: 3vh 2vw;
+    background-color: orangered;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+}

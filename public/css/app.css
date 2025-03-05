@@ -48,7 +48,7 @@ main {
 
 .first-section {
     margin-top: -2em;
-    background-image: url(../images/img1.png);
+    background-image: url(../images/hero.svg);
     height: 100vh;
     background-repeat: no-repeat;
     background-position: top right;
@@ -93,4 +93,16 @@ main {
 .button-one:hover{
     background-color: white;
     color: orangered;
+}
+figure > img{
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+}
+.second-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2vw;
+    height: 50vh;
 }
